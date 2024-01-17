@@ -1,0 +1,702 @@
+/*x-small devices */
+@media screen and (max-width: 575.98px){
+    .header-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .nav-logo a img{
+        width: 28.724px;
+        height: 33.516px;
+    }
+    .nav-logo a h3{
+        font-size: 1.3rem;
+    }
+    .nav-list ul{
+        display: none;
+    }
+    nav .hamburg-icon{
+        display: inline;
+    }
+    .banner-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 20px;
+    }
+    .banner-section-box h1{
+        font-size: 1.3rem;
+        padding-top: 32px;
+        margin-bottom: 8px;
+    }
+    .banner-section-box p{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .find-box{
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+    .when-select .custom-select select,
+    .where-go input{
+        width: 255px;
+    }
+    .banner-btn{
+        margin-top: 4px;
+        margin-bottom: 16px;
+    }
+    .banner-btn a{
+        padding: 16px 75px 16px 75px;
+    }
+    .populer-section{
+        padding: 0 20px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .populer-box{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .populer-content h2{
+        font-size: 1.2rem;
+    }
+    .populer-content p{
+        margin: 16px 0;
+    }
+    .populer-list-item ul li{
+        margin-bottom: 12px;
+    }
+    .populer-btn{
+        padding-top: 24px;
+    }
+    .populer-btn a{
+        padding: 14px 34px;
+    }
+    .populer-image img{
+        width: 100%;
+    }
+    .choose-section{
+        padding: 0 20px;
+    }
+    .choose-section-title h2{
+        font-size: 1.2rem;
+        margin-bottom: 16px;
+    }
+    .choose-section-title p{
+        width: 100%;
+        font-size: 0.8rem;
+        margin-bottom: 16px;
+    }
+    .choose-section-card .choose-section-images{
+        grid-template-areas: 
+        "image-1"
+        "image-2"
+        "image-3"
+        "image-4"
+        "image-5"
+        "image-6"
+        "image-7";
+        gap: 16px;
+    }
+    .choose-image .image-name{
+        font-size: 1.2rem;
+    }
+    .why-choose-section{
+        padding: 24px 20px;
+    }
+    .why-choose-title h2{
+        font-size: 1.2rem;
+        margin-bottom: 16px;
+    }
+    .why-choose-title p{
+        width: 100%;
+    }
+    .why-choose-card{
+        margin-top: 16px;
+        grid-template-columns: 1fr;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+    .why-choose-single{
+        width: 100%;
+    }
+    .discount-section{
+        padding: 0 20px;
+    }
+    .discount-card-single, .discount-card-second{
+        padding: 187px 16px 16px 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .blur-single-box{
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .logo-span{
+        margin-top: 26px;
+        flex-direction: column;
+    }
+    .blur-single-box h5{
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+    .blur-single-box p{
+        /* width: 254px; */
+        margin-bottom: 12px;
+    }
+    .blur-single-box .price-span{
+        margin-bottom: 16px;
+    }
+    .discount-btn{
+        width: 130px;
+        margin-bottom: 24px;
+    }
+    .deal-btn{
+        margin-top: 25px;
+    }
+    .deal-btn a{
+        padding: 16px 40px;
+    }
+    .video-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .video-tag video{
+        width: 100%;
+    }
+    .blog-section{
+        padding: 0 20px;
+        
+    }
+    .blog-single-box{
+        margin-top: 16px;
+    }
+    .blog-section-bottom{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .newslatter-section{
+        padding: 24px 24px;
+    }
+    .newslatter-box{
+        flex-direction: column;
+    }
+    .newslatter-left{
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .newslatter-left h5{
+        margin-top: 24;
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+    .hr-line-new{
+        margin-top: 16px;
+        width: 100%;
+    }
+    .input-field{
+        width: 100%;
+    }
+    .subscribe-btn{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .newslatter-right img{
+        width: 100%;
+    }
+    .token-box{
+        width: 50%;
+        position: absolute;
+        left: 177px;
+        bottom: -7px;
+    }
+    .token-box h4{
+        font-size: 1.2rem;
+    }
+    footer{
+        padding: 0 20px;
+    }
+    .footer-logo {
+        padding-top: 32px;
+    }
+    .footer-box p{
+        width: 100%;
+    }
+    .icon-footer{
+        margin-top: 16px;
+        padding-bottom: 24px;
+    }
+    .footer-hr{
+        width: 100%;
+    }
+    .copyright-box{
+        margin-top: 24px;
+        padding-bottom: 30px;
+    }
+}
+
+/* small devices */
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    .header-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .nav-logo a img{
+        width: 28.724px;
+        height: 33.516px;
+    }
+    .nav-logo a h3{
+        font-size: 1.3rem;
+    }
+    .nav-list ul{
+        display: none;
+    }
+    nav .hamburg-icon{
+        display: inline;
+    }
+    .banner-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 20px;
+    }
+    .banner-section-box h1{
+        font-size: 1.3rem;
+        padding-top: 32px;
+        margin-bottom: 8px;
+    }
+    .banner-section-box p{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .find-box{
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+    .when-select .custom-select select,
+    .where-go input{
+        width: 255px;
+    }
+    .banner-btn{
+        margin-top: 4px;
+        margin-bottom: 16px;
+    }
+    .banner-btn a{
+        padding: 16px 75px 16px 75px;
+    }
+    .populer-section{
+        padding: 0 20px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .populer-box{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .populer-content h2{
+        font-size: 1.2rem;
+    }
+    .populer-content p{
+        margin: 16px 0;
+    }
+    .populer-list-item ul li{
+        margin-bottom: 12px;
+    }
+    .populer-btn{
+        padding-top: 24px;
+    }
+    .populer-btn a{
+        padding: 14px 34px;
+    }
+    .populer-image img{
+        width: 100%;
+    }
+    .choose-section{
+        padding: 0 20px;
+    }
+    .choose-section-title h2{
+        font-size: 1.2rem;
+        margin-bottom: 16px;
+    }
+    .choose-section-title p{
+        width: 100%;
+        font-size: 0.8rem;
+        margin-bottom: 16px;
+    }
+    .choose-section-card .choose-section-images{
+        grid-template-areas: 
+        "image-1"
+        "image-2"
+        "image-3"
+        "image-4"
+        "image-5"
+        "image-6"
+        "image-7";
+        gap: 16px;
+    }
+    .choose-image .image-name{
+        font-size: 1.2rem;
+    }
+    .why-choose-section{
+        padding: 24px 20px;
+    }
+    .why-choose-title h2{
+        font-size: 1.2rem;
+        margin-bottom: 16px;
+    }
+    .why-choose-title p{
+        width: 100%;
+    }
+    .why-choose-card{
+        margin-top: 16px;
+        grid-template-columns: 1fr;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+    .why-choose-single{
+        width: 100%;
+    }
+    .discount-section{
+        padding: 0 20px;
+    }
+    .discount-card-single, .discount-card-second{
+        padding: 187px 16px 16px 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .blur-single-box{
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .logo-span{
+        margin-top: 26px;
+        flex-direction: column;
+    }
+    .blur-single-box h5{
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+    .blur-single-box p{
+        /* width: 254px; */
+        margin-bottom: 12px;
+    }
+    .blur-single-box .price-span{
+        margin-bottom: 16px;
+    }
+    .discount-btn{
+        width: 130px;
+        margin-bottom: 24px;
+    }
+    .deal-btn{
+        margin-top: 25px;
+    }
+    .deal-btn a{
+        padding: 16px 40px;
+    }
+    .video-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .video-tag video{
+        width: 100%;
+    }
+    .blog-section{
+        padding: 0 20px;
+        
+    }
+    .blog-single-box{
+        margin-top: 16px;
+    }
+    .blog-section-bottom{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .newslatter-section{
+        padding: 24px 24px;
+    }
+    .newslatter-box{
+        flex-direction: column;
+    }
+    .newslatter-left{
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .newslatter-left h5{
+        margin-top: 24;
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+    .hr-line-new{
+        margin-top: 16px;
+        width: 100%;
+    }
+    .input-field{
+        width: 100%;
+    }
+    .subscribe-btn{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .newslatter-right img{
+        width: 100%;
+    }
+    .token-box{
+        width: 50%;
+        position: absolute;
+        left: 177px;
+        bottom: -7px;
+    }
+    .token-box h4{
+        font-size: 1.2rem;
+    }
+    footer{
+        padding: 0 20px;
+    }
+    .footer-logo {
+        padding-top: 32px;
+    }
+    .footer-box p{
+        width: 100%;
+    }
+    .icon-footer{
+        margin-top: 16px;
+        padding-bottom: 24px;
+    }
+    .footer-hr{
+        width: 100%;
+    }
+    .copyright-box{
+        margin-top: 24px;
+        padding-bottom: 30px;
+    }
+}
+
+/* medium devices */
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    
+}
+
+/* Large DEvice  */
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+    .header-section{
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 40px;
+    }
+    .nav-logo a img{
+        width: 28.724px;
+        height: 33.516px;
+    }
+    .nav-logo a h3{
+        font-size: 1.5rem;
+    }
+    .banner-section{
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 40px;
+    }
+    .banner-section-box h1{
+        font-size: 1.7rem;
+        padding-top: 32px;
+        margin-bottom: 8px;
+    }
+    .banner-section-box p{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .find-box{
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+    .when-select .custom-select select,
+    .where-go input{
+        width: 350px;
+    }
+    .banner-btn{
+        margin-top: 4px;
+        margin-bottom: 16px;
+    }
+    .banner-btn a{
+        padding: 16px 130px 16px 130px;
+    }
+    .populer-section{
+        padding: 0 100px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .populer-box{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .populer-content h2{
+        font-size: 1.7rem;
+    }
+    .populer-content p{
+        margin: 16px 0;
+    }
+    .populer-list-item ul li{
+        margin-bottom: 12px;
+    }
+    .populer-btn{
+        padding-top: 24px;
+    }
+    .populer-btn a{
+        padding: 14px 34px;
+    }
+    .populer-image img{
+        width: 100%;
+    }
+    .choose-section{
+        padding: 0 100px;
+    }
+    .choose-section-title h2{
+        font-size: 1.7rem;
+        margin-bottom: 16px;
+    }
+    .choose-section-title p{
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+    .choose-section-card .choose-section-images{
+        
+        gap: 10px;
+    }
+    .choose-image .image-name{
+        font-size: 1rem;
+    }
+    .why-choose-section{
+        padding: 40px 100px;
+    }
+    .why-choose-title h2{
+        font-size: 1.7rem;
+        margin-bottom: 16px;
+    }
+    .why-choose-title p{
+        width: 100%;
+    }
+    .why-choose-card{
+        margin-top: 16px;
+        grid-template-columns: 1fr;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+    .why-choose-single{
+        width: 100%;
+    }
+    .discount-section{
+        padding: 0 100px;
+    }
+    .discount-card-single, .discount-card-second{
+        padding: 187px 16px 16px 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .blur-single-box{
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .logo-span{
+        margin-top: 26px;
+        
+    }
+    .blur-single-box h5{
+        font-size: 1.5rem;
+        margin-bottom: 8px;
+    }
+    .blur-single-box p{
+        margin-bottom: 12px;
+    }
+    .blur-single-box .price-span{
+        margin-bottom: 16px;
+    }
+    .discount-btn{
+        width: 130px;
+        margin-bottom: 24px;
+    }
+    .deal-btn{
+        margin-top: 25px;
+    }
+    .deal-btn a{
+        padding: 16px 40px;
+    }
+    .video-section{
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .video-tag video{
+        width: 100%;
+    }
+    .blog-section{
+        padding: 0 100px;
+    }
+    .blog-section{
+        padding: 0 20px; 
+    }
+    .blog-single-box{
+        margin-top: 16px;
+    }
+    .blog-section-bottom{
+        gap: 16px;
+    }
+    .blog-single-box h5{
+        font-size: 1.2rem;
+    }
+    .newslatter-section{
+        padding: 40px 100px;
+    }
+    .newslatter-box{
+        flex-direction: column;
+    }
+    .newslatter-left{
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .newslatter-left h5{
+        margin-top: 24;
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+    .hr-line-new{
+        margin-top: 16px;
+        width: 100%;
+    }
+    .input-field{
+        width: 100%;
+    }
+    .subscribe-btn{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .newslatter-right img{
+        width: 100%;
+    }
+    .token-box{
+        width: 50%;
+        position: absolute;
+        left: 427px;
+        bottom: -15px;
+    }
+    .token-box h4{
+        font-size: 1.2rem;
+    }
+    footer{
+        padding: 0 20px;
+    }
+}
+
+/* x Large Device */
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+}
+

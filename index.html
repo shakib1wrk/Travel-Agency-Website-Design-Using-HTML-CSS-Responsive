@@ -3,224 +3,331 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Next Destination</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Globe Travel</title>
+    <link rel="icon" type="image/x-icon" href="./assets/Images/group-icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="https://kit.fontawesome.com/0ccfffeb75.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
-     <header class="header">
-        <div class="header-title">
-            <img src="Images/Group 40071 (2).png" alt="">
-            <h2>Next <span class="imp">Destination</span>
-            </h2>
-         </div>
-         <div class="navigation">
+    <header class="header-section">
+        <div class="header-section-box">
             <nav>
-               <ul>
-                 <li><a style="color:#FF5400;;" href="home.blog">Home</a></li>
-                 <li><a href="package.blog">Packages</a></li>
-                 <li><a href="Testimonial.blog">Testimonial</a></li>
-                 <li><a href="Blog.blog">Blog</a></li>
-                 <li><a href="Contact.blog">Contact</a></li>
-
-               </ul>
- 
+                <div class="nav-logo">
+                    <a href="#">
+                        <img src="./assets/Images/group-icon.png" alt="logo">
+                        <h3>Globe <span>Travel</span></h3>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="hamburg-icon">
+                    <a href="#"><i class="fa-solid fa-bars"></i></a>
+                </div>
             </nav>
-
-         </div>
-    
-     </header>
-       <main>
-            <section class="banner">
-               <div class="banner-content">
-                      <h1>Explore Your Travel</h1>
-                      <p>Traveling broadens horizons, ignites curiosity, creates memories, fosters cultural understanding, fuels adventure, and inspires a lifelong love for exploration.</p>
-               </div>
-          
-              <div class="buttons">
-            
-              <div>
-                <input class="common" type="text" placeholder="Where go"> 
-              </div>
-                
-               
-              <div>
-                <input style="margin-left: 28px;" class="common" type="text" placeholder="When">
-                <img class="down-arrow" src="Images/Frame.svg" alt="">
-              </div>
-            
-                <div>
-                    <input class="common" type="text" placeholder="Select Type">
-                <img class="down-arrow" src="Images/Frame.svg" alt="">
-
+        </div>
+    </header>
+    <section class="banner-section">
+        <div class="banner-section-box">
+            <h1>Explore Your Travel</h1>
+            <p>Embark on a journey of endless discovery with Globe Travel. Immerse yourself in the allure of our curated destinations, where every step unveils a new adventure</p>
+            <div class="find-box">
+                <div class="where-go">
+                    <input type="text" placeholder="Where go">
                 </div>
-                    <div>
-                        <img class="search-icon" src="Images/Frame (1).svg" alt="">
-                    <button class="btn"> Find now </button>
-                    </div>
-
-                
-
-    
-
-              </div>       
-               
-            </section>
-
-        <section >
-            <div class="tour">
-                   
-              <div class="tour-content">
-                  <h1 class="title">Our Popular Tours</h1>
-                  <p>Popular tours offer curated experiences, expert guides, iconic landmarks, cultural immersion, and seamless travel, creating unforgettable adventures for every wanderlust seeker. </p>
-                
-            <ul>
-                 <li>
-                    Popular tours meticulously plan itineraries, ensuring travelers explore the finest attractions, engage in unique activities, and embrace local culture.
-                 </li>
-
-                <li>
-                    Knowledgeable guides enrich the journey with historical insights and captivating stories, transforming the tour into an educational and immersive experience.
-                </li>
-
-                   <li>
-                    These tours prioritize convenience with well-organized logistics, comfortable accommodations, and efficient transportation, allowing participants to enjoy a stress-free and enjoyable travel experience.
-                   </li>
-
-            </ul>
-                 <p>
-
-                    Popular traveling entices with diverse destinations, from vibrant cities to serene landscapes. Trendsetting experiences cater to modern preferences, creating a global community of adventurous explorers sharing inspirations and memories.
-
-
-                 </p>
-              <button class="btn">Read More</button>
-              </div>
-              
-              
-              <div class="tour-img">
-
-                   <img src="Images/Rectangle 4.png" alt="">
-                   
-              </div>
-
-
+                <div class="when-select">
+                    <div class="custom-select" >
+                        <select>
+                          <option value="0">When</option>
+                          <option value="1">January</option>
+                          <option value="2">February</option>
+                          <option value="3">March</option>
+                          <option value="4">April</option>
+                          <option value="5">May</option>
+                          <option value="6">June</option>
+                          <option value="7">July</option>
+                          <option value="8">August</option>
+                          <option value="9">September</option>
+                          <option value="10">October</option>
+                          <option value="11">November</option>
+                          <option value="12">December</option>
+                        </select>
+                      </div>
+                </div>
+                <div class="when-select">
+                    <div class="custom-select" >
+                        <select>
+                          <option value="0">Select Type</option>
+                          <option value="1">flights</option>
+                          <option value="2">hotels</option>
+                          <option value="3">restaurants</option>
+                          <option value="4">car rentals</option>
+                          <option value="5">local </option>
+                        </select>
+                      </div>
+                </div>
+                <div class="banner-btn">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i>Find Now</a>
+                </div>
             </div>
-
-
-
-        </section>
-
-
-
-        <section class="destination">
-              <h1 class="title">Choose your Destination</h1>
-                <p class="destination-description">Embark on a personalized journey as you choose your destination,<br> unlocking a world of adventure tailored to your unique preferences and dreams.</p>
-              
-              <div class="row1">
-                 <img src="Images/Rectangle 5.png" alt="">
-                 <img src="Images/Rectangle 8.png" alt="">
-                
-                </div>
-            
-              <div class="row2">
-                 <img src="Images/Rectangle 6.png" alt="">
-                <img src="Images/Rectangle 7.png" alt="">
-                   <img src="Images/Rectangle 9.png" alt="">
-              </div>
-              
-              <div class="row3">
-                <img src="Images/Rectangle 11.png" alt="">
-                 <img src="Images/Rectangle 10.png" alt="">
-              </div>
-
-        </section>
-
-       <section class="choose">
-        <div class="choose-content">
-            <h1 class="title">
-                Why Choose Us?
-             </h1>
-             <p class="choose-description">
-                Choose our agency for unparalleled travel experiences : meticulous planning, personalized service, and a commitment to creating unforgettable moments worldwide."
-             </p>
         </div>
-       
-            
-     
-     <div class="twobox">
-                <div class="hotel">
-                    <img src="Images/hotel 1.svg" alt="">
-                    <h5 class="box-title">Handpicked hotels</h5>
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+    </section>
+    <!-- Banner section End -->
+
+    <!-- Popular section start -->
+    <section class="populer-section">
+        <div class="populer-box">
+            <div class="populer-content">
+                <h2>Our Popular Tours</h2>
+                <p>Explore the world with our curated selection of popular tours, handpicked to offer you unforgettable experiences and create lasting memories.</p>
+                <div class="populer-list-item">
+                    <ul>
+                        <li>Embark on thrilling adventures with our adrenaline-pumping excursions</li>
+                        <li>Discover hidden gems and iconic landmarks as you embark on our guided city tours</li>
+                        <li>We pride ourselves on offering diverse and exciting options that cater to every travel style</li>
+                    </ul>
                 </div>
-                
-                <div class="service">
-                    <img src="Images/map 1.svg" alt="">
-                    <h5 class="box-title">World Class Service</h5>
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+                <p class="second-p">With our popular tour section, you can trust that your journey will be filled with excitement, cultural enrichment, and the opportunity to create cherished memories that will last a lifetime. </p>
+                <div class="banner-btn populer-btn">
+                    <a href="#">Read More</a>
                 </div>
-
-
-        </div>
-          
-           <div class="onebox">
-                   <img src="Images/price-tag 1.svg" alt="">
-                   <h5 class="box-title">Best Price Guarantee</h5>
-                   <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
-           </div>
-
-        
-
-       </section>
-
-         <section class="news-letter">
-            <div class="newscontent">
-                <h3>Newsletter</h3>
-                <p>Get your daily dose of travel news. <br> Sign up today!</p>
-                   <div class="border" style="width: 393px; height: 1px; background-color: darkgray; margin: 30px auto;"></div>
-
-                    <div class="inputs">
-                        <input type="text" placeholder="Enter your name"> 
-                        <input type="email" placeholder="Enter your mail">
-                        <button class="btn">Subscribe</button>
-                    </div>
             </div>
-
-             <div class="newsimage">
-
-                <img src="Images/Rectangle 8 (1).png" alt="">
-                <div class="travel">
-                    <h3>Travel.com</h3>
-                    <h1>Save up to 70%</h1>
-                </div>
-
-             </div>
-
-         </section>
-
-       </main> 
-
-
-
-       <footer>
-        <div class="foot">
-            <div class="footer-title">
-                <img src="Images/Group 40071 (2).png" alt="">
-                <h2>Next <span class="imp">Destination</span>
-                </h2>   
-             </div>
-             <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+            <div class="populer-image">
+                <img src="./assets/Images/rectangle-4.png" alt="image">
+            </div>
         </div>
-          
-             <div>
-                <img src="Images/Social.svg" alt="">
-             </div>
-      
-             <div style="width: 1170px; height: 1px; background-color: darkgray; margin: 30px auto;"></div>
-
-           <p>2017,All Rights Reserved</p>
-
-       </footer>
+    </section>
+    <section class="choose-section">
+        <div class="choose-section-box">
+            <div class="choose-section-title">
+                <h2>Choose Your Destination</h2>
+                <p>Whether you seek the tranquility of pristine beaches, the rich history woven into cobblestone streets, or the adrenaline rush of adventure in the great outdoors, our curated selection of destinations awaits your exploration.</p>
+            </div>
+            <div class="choose-section-card">
+                <div class="choose-section-images">
+                    <div class="choose-image" id="image-1"><img src="./assets/Images/rectangle-5.png" alt="">
+                        <div class="image-name">Maldives</div>
+                    </div>
+                    <div class="choose-image" id="image-2"><img src="./assets/Images/rectangle-8-1.png" alt="">
+                        <div class="image-name">Indonesia</div>
+                    </div>
+                    <div class="choose-image" id="image-3"><img src="./assets/Images/rectangle-6.png" alt="">
+                        <div class="image-name">Srilanka</div>
+                    </div>
+                    <div class="choose-image" id="image-4"><img src="./assets/Images/rectangle-7.png" alt="">
+                        <div class="image-name">North America</div>
+                    </div>
+                    <div class="choose-image" id="image-5"><img src="./assets/Images/rectangle-9.png" alt="">
+                        <div class="image-name">Kashmir</div>
+                    </div>
+                    <div class="choose-image" id="image-6"><img src="./assets/Images/rectangle-11.png" alt="">
+                        <div class="image-name">Bangladesh</div>
+                    </div>
+                    <div class="choose-image" id="image-7"><img src="./assets/Images/rectangle-10.png" alt="">
+                        <div class="image-name">Bandarban</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why-choose-section">
+        <div class="why-choose-box">
+            <div class="why-choose-title">
+                <h2>Why Choose Us</h2>
+                <p>We understand that choosing the right destination is a pivotal decision, and we're here to make it easier for you.</p>
+            </div>
+            <div class="why-choose-card">
+                <div class="why-choose-single">
+                    <img src="./assets/icon/hotel-1.png" alt="icon">
+                    <h5>Handpicked Hotels</h5>
+                    <p>We understand that your stay is an integral part of your travel experience, and we've meticulously selected each hotel to ensure a seamless blend of comfort, style, and unparalleled service.</p>
+                </div>
+                <div class="why-choose-single color-change">
+                    <img src="./assets/icon/map-1.png" alt="icon">
+                    <h5>World Class Service</h5>
+                    <p>We always available in google map and our location is also in google map. we provide a service 24/7 days and our contact number is also available on google map.</p>
+                </div>
+            </div>
+            <div class="why-choose-xtra">
+                <div class="why-choose-single">
+                    <img src="./assets/icon/price-tag-1.png" alt="icon">
+                    <h5>Best Price Guarantee</h5>
+                    <p>We understand the importance of securing the best value for your travel investment, and that's why we offer an assurance that you won't find a lower price elsewhere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="discount-section">
+        <div class="discount-section-box">
+            <div class="why-choose-title">
+                <h2>Deals & Discounts</h2>
+                <p>We believe that everyone deserves a chance to explore the world without breaking the bank, and our curated collection of deals and discounts is designed to make your travel aspirations a reality.</p>
+            </div>
+            <div class="discount-section-card">
+                <div class="discount-card-single">
+                    <div class="blur-single-box">
+                        <div class="logo-span">
+                            <p><i class="fa-solid fa-clock"></i>7 Day / 6 Night</p>
+                            <p><i class="fa-solid fa-people-group"></i>Max : 10</p>
+                            <p>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Malaysia
+                            </p>
+                        </div>
+                        <h5>Berjaya Langkawi Resort</h5>
+                        <p>The resort is situated on the western part of Langkawi, surrounded by lush rainforests and overlooking the Andaman Sea.</p>
+                        <span class="price-span">Price: $1300-$1500</span>
+                        <button class="discount-btn">Book Now</button>
+                    </div>
+                </div>
+                <div class="discount-card-single discount-card-second">
+                    <div class="blur-single-box">
+                        <div class="logo-span">
+                            <p><i class="fa-solid fa-clock"></i>7 Day / 6 Night</p>
+                            <p><i class="fa-solid fa-people-group"></i>Max : 10</p>
+                            <p>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Maldives
+                            </p>
+                        </div>
+                        <h5>Soneva Jani Resort</h5>
+                        <p>Soneva Jani is situated on Medhufaru Island, which is part of the Noonu Atoll in the Maldives. The Maldives is renowned for its overwater bungalows and stunning coral reefs.</p>
+                        <span class="price-span">Price: $1000-$1200</span>
+                        <button class="discount-btn">Book Now</button>
+                    </div>
+                </div>
+                <div class="discount-card-single">
+                    <div class="blur-single-box">
+                        <div class="logo-span">
+                            <p><i class="fa-solid fa-clock"></i>7 Day / 6 Night</p>
+                            <p><i class="fa-solid fa-people-group"></i>Max : 10</p>
+                            <p>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Singapore
+                            </p>
+                        </div>
+                        <h5>Siloso Beach Resort</h5>
+                        <p>Siloso Beach Resort is situated on Sentosa Island, a popular resort island in Singapore known for its entertainment, attractions, and beaches. The resort is typically located near Siloso Beach, one of the three main beaches on Sentosa.</p>
+                        <span class="price-span">Price: $1800-$2200</span>
+                        <button class="discount-btn">Book Now</button>
+                    </div>
+                </div>
+                <div class="banner-btn deal-btn">
+                    <a href="#">See All Packages</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video-section">
+        <div class="populer-box">
+            <div class="populer-content">
+                <h2>A Simple Perfect Place In Bangladesh</h2>
+                <p class="second-p">Some palaces of our bangladesh where you can travel reasonable budget with us.</p>
+                <div class="populer-list-item video-list">
+                    <ul>
+                        <li>Embark on thrilling adventures with our adrenaline-pumping excursions</li>
+                        <li>Discover hidden gems and iconic landmarks as you embark on our guided city tours</li>
+                        <li>We pride ourselves on offering diverse and exciting options that cater to every travel style</li>
+                    </ul>
+                </div>
+                <div class="banner-btn populer-btn">
+                    <a href="#">See More</a>
+                </div>
+            </div>
+            <div class="populer-image video-tag">
+                <video controls width="610px" poster="./assets/video/poster10.png" src="./assets/video/202401161219.mp4" type="video/mp4"></video>
+            </div>
+        </div>
+    </section>
+    <section class="blog-section">
+        <div class="blog-section-box">
+            <div class="why-choose-title">
+                <h2>Globe Travel Blog</h2>
+                <p>Some blog about our travel where you can know about us. and feel comfortable make tour with us read our blog.</p>
+            </div>
+            <div class="blog-section-bottom">
+                <div class="blog-single-box">
+                    <div class="blog-image">
+                        <img src="./assets/Images/tree-1.jpg" alt="blog">
+                    </div>
+                    <h5>21 Popular Beach We Visit in 2023</h5>
+                    <p>Popular beach where our customer satisfied with us and explore more and more enjoyable moment.</p>
+                    <div class="blog-btn">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-single-box">
+                    <div class="blog-image">
+                        <img src="./assets/Images/blog-2.png" alt="blog">
+                    </div>
+                    <h5>10 Popular Luxury Resort in Different Country</h5>
+                    <p>Popular Luxury resort with reasonable price our customer satisfaction. with luxury and comfortable resort</p>
+                    <div class="blog-btn">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-single-box">
+                    <div class="blog-image">
+                        <img src="./assets/Images/blog-1.png" alt="blog">
+                    </div>
+                    <h5>15 Popular Mountain We Visit in 2023</h5>
+                    <p>Popular mountain where our customer satisfied with us and explore more and more enjoyable moment.</p>
+                    <div class="blog-btn">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-btn deal-btn">
+                <a href="#">More Blog</a>
+            </div>
+        </div>
+    </section>
+    <section class="newslatter-section">
+        <div class="newslatter-box">
+            <div class="newslatter-left">
+                <h5>Newsletter</h5>
+                <p>Get your daily dose of travel news & tips. Sign up today!</p>
+                <hr class="hr-line-new">
+                <input class="input-field" type="text" name="name" placeholder="Enter your name">
+                <input class="input-field" type="text" name="main" placeholder="Enter your email">
+                <input class="subscribe-btn" type="submit" value="Subscribe">
+            </div>
+            <div class="newslatter-right">
+                <img src="./assets/Images/rectangle-8.png" alt="image">
+                <div class="rotate-box">
+                    <div class="token-box">
+                        <span>Travel.com</span>
+                        <h4>Save up to 70%</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-box">
+            <div class="footer-logo">
+                <img src="./assets/Images/group-icon.png" alt="icon">
+                <h4>Globe <span>Travel</span></h4>
+            </div>
+            <p>Embark on a journey with Globe Travel and explore the world like never before. Our passion for travel fuels our commitment to providing you with seamless and unforgettable experiences. </p>
+            <div class="icon-footer">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <hr class="footer-hr">
+            <div class="copyright-box">
+                <span>&copy;2024, All Rights Reserved.</span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
